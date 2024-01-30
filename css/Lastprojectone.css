@@ -1,18 +1,8 @@
 @import url('reset.css');
 
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url(/fonts/Montserrat-Bold.ttf);
-}
-
-@font-face {
     font-family: 'Montserrat-Regular';
-    src: url(/fonts/Montserrat-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Black';
-    src: url(/fonts/Montserrat-Black.ttf);
+    src: url(/fonts/montserrat-regular.woff2);
 }
 
 
@@ -52,7 +42,8 @@
     text-decoration: none;
     color: #B3B3BA;
     font-size: 12px;
-    font-family: 'Montserrat-Bold';
+    font-weight: 900;
+    font-family: 'Montserrat-Regular';
 }
 
 .small-one a:hover {
@@ -60,7 +51,8 @@
     border-radius: 8px;
     padding: 5px;
     color: white;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Regular';
+    font-weight: 900;
 }
 
 .small-two {
@@ -111,7 +103,7 @@
 
 .menu a {
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -352,7 +344,7 @@
 .container-two h2 {
     margin-top: 30px;
     color: #323264;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: 22px;
     font-weight: 700;
     line-height: 27px;
@@ -368,7 +360,7 @@
 
 .container-two .number {
     color: #F0145A;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Regular';
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
@@ -411,7 +403,7 @@ p {
 
 .container-four h3 {
     color: #323264;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: 22px;
     font-weight: 700;
     line-height: 27px;
@@ -466,7 +458,7 @@ h2 {
 
 .card>h2+p {
     color: #B3B3BA;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: 12px;
     font-weight: 700;
     line-height: 15px;
